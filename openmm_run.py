@@ -8,6 +8,9 @@ This program is OpenMM running scripts written in python.
 Correspondance: jul316@lehigh.edu or wonpil@lehigh.edu
 Last update: June 18, 2021
 """
+# compared with the original openmm_run.py this script add a section that it will use nvidia-smi to find available gpus
+# and then only use the available gpus to run the simulation, instead of the 1st one
+# this allows you to run multiple paraelle simulations on a workstation without a queue system
 
 from __future__ import print_function
 import argparse
