@@ -63,7 +63,6 @@ for i in {1..5}; do
     dir_name="run_$i"
     mkdir -p "$dir_name"
     run_simulation &
-    sleep 20
 done
 
 # Wait for all background jobs to finish
