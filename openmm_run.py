@@ -16,7 +16,8 @@ from __future__ import print_function
 import argparse
 import sys
 import os
-import subprocess
+#remember to add this line to use the subprocess
+import subprocess 
 
 from omm_readinputs import *
 from omm_readparams import *
