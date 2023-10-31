@@ -58,7 +58,7 @@ run_simulation() {
 }
 
 # Create directories and start simulations in each
-for i in {1..53}; do
+for i in {1..3}; do
     dir_name="run_$i"
     mkdir -p "$dir_name"
     run_simulation &
